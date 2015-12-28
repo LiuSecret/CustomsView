@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customs="http://schemas.android.com/apk/res/com.example.customsview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.example.customsview.CustomsView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        customs:titleImage="@drawable/back"
+        customs:titleTextCenter="中间标题红黄色18"
+        customs:titleTextCenterSize="18"
+        customs:titleTextCentercolor="@color/red"
+        customs:titleTextRight="右边标题黑色14"
+        customs:titleTextRightSize="14"
+        customs:titleTextRightcolor="@color/black"
+        customs:titlebg="@color/green" >
+    </com.example.customsview.CustomsView>
+
+</LinearLayout>
